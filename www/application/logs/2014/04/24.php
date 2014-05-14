@@ -1,0 +1,287 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2014-04-24 21:08:31 --- CRITICAL: ErrorException [ 8 ]: Use of undefined constant ‘mysite - assumed '‘mysite' ~ APPPATH\classes\Controller\Welcome.php [ 10 ] in V:\home\kohana\www\application\classes\Controller\Welcome.php:10
+2014-04-24 21:08:31 --- DEBUG: #0 V:\home\kohana\www\application\classes\Controller\Welcome.php(10): Kohana_Core::error_handler(8, 'Use of undefine...', 'V:\home\kohana\...', 10, Array)
+#1 V:\home\kohana\www\system\classes\Kohana\Controller.php(84): Controller_Welcome->action_index()
+#2 [internal function]: Kohana_Controller->execute()
+#3 V:\home\kohana\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Welcome))
+#4 V:\home\kohana\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 V:\home\kohana\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#6 V:\home\kohana\www\index.php(118): Kohana_Request->execute()
+#7 {main} in V:\home\kohana\www\application\classes\Controller\Welcome.php:10
+2014-04-24 21:20:30 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: Мой первый сайт на Кохане ~ APPPATH\classes\Controller\Welcome.php [ 13 ] in V:\home\kohana\www\application\classes\Controller\Welcome.php:13
+2014-04-24 21:20:30 --- DEBUG: #0 V:\home\kohana\www\application\classes\Controller\Welcome.php(13): Kohana_Core::error_handler(8, 'Undefined varia...', 'V:\home\kohana\...', 13, Array)
+#1 V:\home\kohana\www\system\classes\Kohana\Controller.php(84): Controller_Welcome->action_index()
+#2 [internal function]: Kohana_Controller->execute()
+#3 V:\home\kohana\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Welcome))
+#4 V:\home\kohana\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 V:\home\kohana\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#6 V:\home\kohana\www\index.php(118): Kohana_Request->execute()
+#7 {main} in V:\home\kohana\www\application\classes\Controller\Welcome.php:13
+2014-04-24 21:30:55 --- CRITICAL: View_Exception [ 0 ]: The requested view welcome could not be found ~ SYSPATH\classes\Kohana\View.php [ 257 ] in V:\home\kohana\www\system\classes\Kohana\View.php:137
+2014-04-24 21:30:55 --- DEBUG: #0 V:\home\kohana\www\system\classes\Kohana\View.php(137): Kohana_View->set_filename('welcome')
+#1 V:\home\kohana\www\system\classes\Kohana\View.php(30): Kohana_View->__construct('welcome', NULL)
+#2 V:\home\kohana\www\application\classes\Controller\Welcome.php(19): Kohana_View::factory('welcome')
+#3 V:\home\kohana\www\system\classes\Kohana\Controller.php(84): Controller_Welcome->action_index()
+#4 [internal function]: Kohana_Controller->execute()
+#5 V:\home\kohana\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Welcome))
+#6 V:\home\kohana\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 V:\home\kohana\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 V:\home\kohana\www\index.php(118): Kohana_Request->execute()
+#9 {main} in V:\home\kohana\www\system\classes\Kohana\View.php:137
+2014-04-24 21:52:22 --- CRITICAL: ErrorException [ 2048 ]: Creating default object from empty value ~ APPPATH\classes\Controller\Welcome.php [ 11 ] in V:\home\kohana\www\application\classes\Controller\Welcome.php:11
+2014-04-24 21:52:22 --- DEBUG: #0 V:\home\kohana\www\application\classes\Controller\Welcome.php(11): Kohana_Core::error_handler(2048, 'Creating defaul...', 'V:\home\kohana\...', 11, Array)
+#1 V:\home\kohana\www\system\classes\Kohana\Controller.php(84): Controller_Welcome->action_index()
+#2 [internal function]: Kohana_Controller->execute()
+#3 V:\home\kohana\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Welcome))
+#4 V:\home\kohana\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 V:\home\kohana\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#6 V:\home\kohana\www\index.php(118): Kohana_Request->execute()
+#7 {main} in V:\home\kohana\www\application\classes\Controller\Welcome.php:11
+2014-04-24 21:52:23 --- CRITICAL: ErrorException [ 2048 ]: Creating default object from empty value ~ APPPATH\classes\Controller\Welcome.php [ 11 ] in V:\home\kohana\www\application\classes\Controller\Welcome.php:11
+2014-04-24 21:52:23 --- DEBUG: #0 V:\home\kohana\www\application\classes\Controller\Welcome.php(11): Kohana_Core::error_handler(2048, 'Creating defaul...', 'V:\home\kohana\...', 11, Array)
+#1 V:\home\kohana\www\system\classes\Kohana\Controller.php(84): Controller_Welcome->action_index()
+#2 [internal function]: Kohana_Controller->execute()
+#3 V:\home\kohana\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Welcome))
+#4 V:\home\kohana\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 V:\home\kohana\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#6 V:\home\kohana\www\index.php(118): Kohana_Request->execute()
+#7 {main} in V:\home\kohana\www\application\classes\Controller\Welcome.php:11
+2014-04-24 21:52:24 --- CRITICAL: ErrorException [ 2048 ]: Creating default object from empty value ~ APPPATH\classes\Controller\Welcome.php [ 11 ] in V:\home\kohana\www\application\classes\Controller\Welcome.php:11
+2014-04-24 21:52:24 --- DEBUG: #0 V:\home\kohana\www\application\classes\Controller\Welcome.php(11): Kohana_Core::error_handler(2048, 'Creating defaul...', 'V:\home\kohana\...', 11, Array)
+#1 V:\home\kohana\www\system\classes\Kohana\Controller.php(84): Controller_Welcome->action_index()
+#2 [internal function]: Kohana_Controller->execute()
+#3 V:\home\kohana\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Welcome))
+#4 V:\home\kohana\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 V:\home\kohana\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#6 V:\home\kohana\www\index.php(118): Kohana_Request->execute()
+#7 {main} in V:\home\kohana\www\application\classes\Controller\Welcome.php:11
+2014-04-24 21:52:24 --- CRITICAL: ErrorException [ 2048 ]: Creating default object from empty value ~ APPPATH\classes\Controller\Welcome.php [ 11 ] in V:\home\kohana\www\application\classes\Controller\Welcome.php:11
+2014-04-24 21:52:24 --- DEBUG: #0 V:\home\kohana\www\application\classes\Controller\Welcome.php(11): Kohana_Core::error_handler(2048, 'Creating defaul...', 'V:\home\kohana\...', 11, Array)
+#1 V:\home\kohana\www\system\classes\Kohana\Controller.php(84): Controller_Welcome->action_index()
+#2 [internal function]: Kohana_Controller->execute()
+#3 V:\home\kohana\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Welcome))
+#4 V:\home\kohana\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 V:\home\kohana\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#6 V:\home\kohana\www\index.php(118): Kohana_Request->execute()
+#7 {main} in V:\home\kohana\www\application\classes\Controller\Welcome.php:11
+2014-04-24 22:00:04 --- CRITICAL: View_Exception [ 0 ]: The requested view main could not be found ~ SYSPATH\classes\Kohana\View.php [ 257 ] in V:\home\kohana\www\system\classes\Kohana\View.php:137
+2014-04-24 22:00:04 --- DEBUG: #0 V:\home\kohana\www\system\classes\Kohana\View.php(137): Kohana_View->set_filename('main')
+#1 V:\home\kohana\www\system\classes\Kohana\View.php(30): Kohana_View->__construct('main', NULL)
+#2 V:\home\kohana\www\system\classes\Kohana\Controller\Template.php(33): Kohana_View::factory('main')
+#3 V:\home\kohana\www\system\classes\Kohana\Controller.php(69): Kohana_Controller_Template->before()
+#4 [internal function]: Kohana_Controller->execute()
+#5 V:\home\kohana\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Welcome))
+#6 V:\home\kohana\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 V:\home\kohana\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 V:\home\kohana\www\index.php(118): Kohana_Request->execute()
+#9 {main} in V:\home\kohana\www\system\classes\Kohana\View.php:137
+2014-04-24 22:00:46 --- CRITICAL: View_Exception [ 0 ]: The requested view main could not be found ~ SYSPATH\classes\Kohana\View.php [ 257 ] in V:\home\kohana\www\system\classes\Kohana\View.php:137
+2014-04-24 22:00:46 --- DEBUG: #0 V:\home\kohana\www\system\classes\Kohana\View.php(137): Kohana_View->set_filename('main')
+#1 V:\home\kohana\www\system\classes\Kohana\View.php(30): Kohana_View->__construct('main', NULL)
+#2 V:\home\kohana\www\system\classes\Kohana\Controller\Template.php(33): Kohana_View::factory('main')
+#3 V:\home\kohana\www\system\classes\Kohana\Controller.php(69): Kohana_Controller_Template->before()
+#4 [internal function]: Kohana_Controller->execute()
+#5 V:\home\kohana\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Welcome))
+#6 V:\home\kohana\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 V:\home\kohana\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 V:\home\kohana\www\index.php(118): Kohana_Request->execute()
+#9 {main} in V:\home\kohana\www\system\classes\Kohana\View.php:137
+2014-04-24 23:08:50 --- CRITICAL: View_Exception [ 0 ]: The requested view /pages/about could not be found ~ SYSPATH\classes\Kohana\View.php [ 257 ] in V:\home\kohana\www\system\classes\Kohana\View.php:137
+2014-04-24 23:08:50 --- DEBUG: #0 V:\home\kohana\www\system\classes\Kohana\View.php(137): Kohana_View->set_filename('/pages/about')
+#1 V:\home\kohana\www\system\classes\Kohana\View.php(30): Kohana_View->__construct('/pages/about', NULL)
+#2 V:\home\kohana\www\application\classes\Controller\page.php(10): Kohana_View::factory('/pages/about')
+#3 V:\home\kohana\www\system\classes\Kohana\Controller.php(84): Controller_Page->action_about()
+#4 [internal function]: Kohana_Controller->execute()
+#5 V:\home\kohana\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Page))
+#6 V:\home\kohana\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 V:\home\kohana\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 V:\home\kohana\www\index.php(118): Kohana_Request->execute()
+#9 {main} in V:\home\kohana\www\system\classes\Kohana\View.php:137
+2014-04-24 23:19:07 --- CRITICAL: View_Exception [ 0 ]: The requested view /pages/contacts could not be found ~ SYSPATH\classes\Kohana\View.php [ 257 ] in V:\home\kohana\www\system\classes\Kohana\View.php:137
+2014-04-24 23:19:07 --- DEBUG: #0 V:\home\kohana\www\system\classes\Kohana\View.php(137): Kohana_View->set_filename('/pages/contacts')
+#1 V:\home\kohana\www\system\classes\Kohana\View.php(30): Kohana_View->__construct('/pages/contacts', NULL)
+#2 V:\home\kohana\www\application\classes\Controller\page.php(18): Kohana_View::factory('/pages/contacts')
+#3 V:\home\kohana\www\system\classes\Kohana\Controller.php(84): Controller_Page->action_contacts()
+#4 [internal function]: Kohana_Controller->execute()
+#5 V:\home\kohana\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Page))
+#6 V:\home\kohana\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 V:\home\kohana\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 V:\home\kohana\www\index.php(118): Kohana_Request->execute()
+#9 {main} in V:\home\kohana\www\system\classes\Kohana\View.php:137
+2014-04-24 23:19:08 --- CRITICAL: View_Exception [ 0 ]: The requested view /pages/contacts could not be found ~ SYSPATH\classes\Kohana\View.php [ 257 ] in V:\home\kohana\www\system\classes\Kohana\View.php:137
+2014-04-24 23:19:08 --- DEBUG: #0 V:\home\kohana\www\system\classes\Kohana\View.php(137): Kohana_View->set_filename('/pages/contacts')
+#1 V:\home\kohana\www\system\classes\Kohana\View.php(30): Kohana_View->__construct('/pages/contacts', NULL)
+#2 V:\home\kohana\www\application\classes\Controller\page.php(18): Kohana_View::factory('/pages/contacts')
+#3 V:\home\kohana\www\system\classes\Kohana\Controller.php(84): Controller_Page->action_contacts()
+#4 [internal function]: Kohana_Controller->execute()
+#5 V:\home\kohana\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Page))
+#6 V:\home\kohana\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 V:\home\kohana\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 V:\home\kohana\www\index.php(118): Kohana_Request->execute()
+#9 {main} in V:\home\kohana\www\system\classes\Kohana\View.php:137
+2014-04-24 23:27:05 --- CRITICAL: View_Exception [ 0 ]: The requested view main could not be found ~ SYSPATH\classes\Kohana\View.php [ 257 ] in V:\home\kohana\www\system\classes\Kohana\View.php:137
+2014-04-24 23:27:05 --- DEBUG: #0 V:\home\kohana\www\system\classes\Kohana\View.php(137): Kohana_View->set_filename('main')
+#1 V:\home\kohana\www\system\classes\Kohana\View.php(30): Kohana_View->__construct('main', NULL)
+#2 V:\home\kohana\www\system\classes\Kohana\Controller\Template.php(33): Kohana_View::factory('main')
+#3 V:\home\kohana\www\system\classes\Kohana\Controller.php(69): Kohana_Controller_Template->before()
+#4 [internal function]: Kohana_Controller->execute()
+#5 V:\home\kohana\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Page))
+#6 V:\home\kohana\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 V:\home\kohana\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 V:\home\kohana\www\index.php(118): Kohana_Request->execute()
+#9 {main} in V:\home\kohana\www\system\classes\Kohana\View.php:137
+2014-04-24 23:30:41 --- CRITICAL: View_Exception [ 0 ]: The requested view /pages/about could not be found ~ SYSPATH\classes\Kohana\View.php [ 257 ] in V:\home\kohana\www\system\classes\Kohana\View.php:137
+2014-04-24 23:30:41 --- DEBUG: #0 V:\home\kohana\www\system\classes\Kohana\View.php(137): Kohana_View->set_filename('/pages/about')
+#1 V:\home\kohana\www\system\classes\Kohana\View.php(30): Kohana_View->__construct('/pages/about', NULL)
+#2 V:\home\kohana\www\application\classes\Controller\page.php(10): Kohana_View::factory('/pages/about')
+#3 V:\home\kohana\www\system\classes\Kohana\Controller.php(84): Controller_Page->action_about()
+#4 [internal function]: Kohana_Controller->execute()
+#5 V:\home\kohana\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Page))
+#6 V:\home\kohana\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 V:\home\kohana\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 V:\home\kohana\www\index.php(118): Kohana_Request->execute()
+#9 {main} in V:\home\kohana\www\system\classes\Kohana\View.php:137
+2014-04-24 23:30:51 --- CRITICAL: View_Exception [ 0 ]: The requested view /pages/about could not be found ~ SYSPATH\classes\Kohana\View.php [ 257 ] in V:\home\kohana\www\system\classes\Kohana\View.php:137
+2014-04-24 23:30:51 --- DEBUG: #0 V:\home\kohana\www\system\classes\Kohana\View.php(137): Kohana_View->set_filename('/pages/about')
+#1 V:\home\kohana\www\system\classes\Kohana\View.php(30): Kohana_View->__construct('/pages/about', NULL)
+#2 V:\home\kohana\www\application\classes\Controller\page.php(10): Kohana_View::factory('/pages/about')
+#3 V:\home\kohana\www\system\classes\Kohana\Controller.php(84): Controller_Page->action_about()
+#4 [internal function]: Kohana_Controller->execute()
+#5 V:\home\kohana\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Page))
+#6 V:\home\kohana\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 V:\home\kohana\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 V:\home\kohana\www\index.php(118): Kohana_Request->execute()
+#9 {main} in V:\home\kohana\www\system\classes\Kohana\View.php:137
+2014-04-24 23:31:23 --- CRITICAL: View_Exception [ 0 ]: The requested view /pages/about could not be found ~ SYSPATH\classes\Kohana\View.php [ 257 ] in V:\home\kohana\www\system\classes\Kohana\View.php:137
+2014-04-24 23:31:23 --- DEBUG: #0 V:\home\kohana\www\system\classes\Kohana\View.php(137): Kohana_View->set_filename('/pages/about')
+#1 V:\home\kohana\www\system\classes\Kohana\View.php(30): Kohana_View->__construct('/pages/about', NULL)
+#2 V:\home\kohana\www\application\classes\Controller\page.php(10): Kohana_View::factory('/pages/about')
+#3 V:\home\kohana\www\system\classes\Kohana\Controller.php(84): Controller_Page->action_about()
+#4 [internal function]: Kohana_Controller->execute()
+#5 V:\home\kohana\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Page))
+#6 V:\home\kohana\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 V:\home\kohana\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 V:\home\kohana\www\index.php(118): Kohana_Request->execute()
+#9 {main} in V:\home\kohana\www\system\classes\Kohana\View.php:137
+2014-04-24 23:31:47 --- CRITICAL: View_Exception [ 0 ]: The requested view /pages/about could not be found ~ SYSPATH\classes\Kohana\View.php [ 257 ] in V:\home\kohana\www\system\classes\Kohana\View.php:137
+2014-04-24 23:31:47 --- DEBUG: #0 V:\home\kohana\www\system\classes\Kohana\View.php(137): Kohana_View->set_filename('/pages/about')
+#1 V:\home\kohana\www\system\classes\Kohana\View.php(30): Kohana_View->__construct('/pages/about', NULL)
+#2 V:\home\kohana\www\application\classes\Controller\page.php(10): Kohana_View::factory('/pages/about')
+#3 V:\home\kohana\www\system\classes\Kohana\Controller.php(84): Controller_Page->action_about()
+#4 [internal function]: Kohana_Controller->execute()
+#5 V:\home\kohana\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Page))
+#6 V:\home\kohana\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 V:\home\kohana\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 V:\home\kohana\www\index.php(118): Kohana_Request->execute()
+#9 {main} in V:\home\kohana\www\system\classes\Kohana\View.php:137
+2014-04-24 23:32:41 --- CRITICAL: View_Exception [ 0 ]: The requested view /pages/about could not be found ~ SYSPATH\classes\Kohana\View.php [ 257 ] in V:\home\kohana\www\system\classes\Kohana\View.php:137
+2014-04-24 23:32:41 --- DEBUG: #0 V:\home\kohana\www\system\classes\Kohana\View.php(137): Kohana_View->set_filename('/pages/about')
+#1 V:\home\kohana\www\system\classes\Kohana\View.php(30): Kohana_View->__construct('/pages/about', NULL)
+#2 V:\home\kohana\www\application\classes\Controller\page.php(10): Kohana_View::factory('/pages/about')
+#3 V:\home\kohana\www\system\classes\Kohana\Controller.php(84): Controller_Page->action_about()
+#4 [internal function]: Kohana_Controller->execute()
+#5 V:\home\kohana\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Page))
+#6 V:\home\kohana\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 V:\home\kohana\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 V:\home\kohana\www\index.php(118): Kohana_Request->execute()
+#9 {main} in V:\home\kohana\www\system\classes\Kohana\View.php:137
+2014-04-24 23:32:43 --- CRITICAL: View_Exception [ 0 ]: The requested view /pages/about could not be found ~ SYSPATH\classes\Kohana\View.php [ 257 ] in V:\home\kohana\www\system\classes\Kohana\View.php:137
+2014-04-24 23:32:43 --- DEBUG: #0 V:\home\kohana\www\system\classes\Kohana\View.php(137): Kohana_View->set_filename('/pages/about')
+#1 V:\home\kohana\www\system\classes\Kohana\View.php(30): Kohana_View->__construct('/pages/about', NULL)
+#2 V:\home\kohana\www\application\classes\Controller\page.php(10): Kohana_View::factory('/pages/about')
+#3 V:\home\kohana\www\system\classes\Kohana\Controller.php(84): Controller_Page->action_about()
+#4 [internal function]: Kohana_Controller->execute()
+#5 V:\home\kohana\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Page))
+#6 V:\home\kohana\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 V:\home\kohana\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 V:\home\kohana\www\index.php(118): Kohana_Request->execute()
+#9 {main} in V:\home\kohana\www\system\classes\Kohana\View.php:137
+2014-04-24 23:32:44 --- CRITICAL: View_Exception [ 0 ]: The requested view /pages/about could not be found ~ SYSPATH\classes\Kohana\View.php [ 257 ] in V:\home\kohana\www\system\classes\Kohana\View.php:137
+2014-04-24 23:32:44 --- DEBUG: #0 V:\home\kohana\www\system\classes\Kohana\View.php(137): Kohana_View->set_filename('/pages/about')
+#1 V:\home\kohana\www\system\classes\Kohana\View.php(30): Kohana_View->__construct('/pages/about', NULL)
+#2 V:\home\kohana\www\application\classes\Controller\page.php(10): Kohana_View::factory('/pages/about')
+#3 V:\home\kohana\www\system\classes\Kohana\Controller.php(84): Controller_Page->action_about()
+#4 [internal function]: Kohana_Controller->execute()
+#5 V:\home\kohana\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Page))
+#6 V:\home\kohana\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 V:\home\kohana\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 V:\home\kohana\www\index.php(118): Kohana_Request->execute()
+#9 {main} in V:\home\kohana\www\system\classes\Kohana\View.php:137
+2014-04-24 23:32:44 --- CRITICAL: View_Exception [ 0 ]: The requested view /pages/about could not be found ~ SYSPATH\classes\Kohana\View.php [ 257 ] in V:\home\kohana\www\system\classes\Kohana\View.php:137
+2014-04-24 23:32:44 --- DEBUG: #0 V:\home\kohana\www\system\classes\Kohana\View.php(137): Kohana_View->set_filename('/pages/about')
+#1 V:\home\kohana\www\system\classes\Kohana\View.php(30): Kohana_View->__construct('/pages/about', NULL)
+#2 V:\home\kohana\www\application\classes\Controller\page.php(10): Kohana_View::factory('/pages/about')
+#3 V:\home\kohana\www\system\classes\Kohana\Controller.php(84): Controller_Page->action_about()
+#4 [internal function]: Kohana_Controller->execute()
+#5 V:\home\kohana\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Page))
+#6 V:\home\kohana\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 V:\home\kohana\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 V:\home\kohana\www\index.php(118): Kohana_Request->execute()
+#9 {main} in V:\home\kohana\www\system\classes\Kohana\View.php:137
+2014-04-24 23:32:45 --- CRITICAL: View_Exception [ 0 ]: The requested view /pages/about could not be found ~ SYSPATH\classes\Kohana\View.php [ 257 ] in V:\home\kohana\www\system\classes\Kohana\View.php:137
+2014-04-24 23:32:45 --- DEBUG: #0 V:\home\kohana\www\system\classes\Kohana\View.php(137): Kohana_View->set_filename('/pages/about')
+#1 V:\home\kohana\www\system\classes\Kohana\View.php(30): Kohana_View->__construct('/pages/about', NULL)
+#2 V:\home\kohana\www\application\classes\Controller\page.php(10): Kohana_View::factory('/pages/about')
+#3 V:\home\kohana\www\system\classes\Kohana\Controller.php(84): Controller_Page->action_about()
+#4 [internal function]: Kohana_Controller->execute()
+#5 V:\home\kohana\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Page))
+#6 V:\home\kohana\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 V:\home\kohana\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 V:\home\kohana\www\index.php(118): Kohana_Request->execute()
+#9 {main} in V:\home\kohana\www\system\classes\Kohana\View.php:137
+2014-04-24 23:32:46 --- CRITICAL: View_Exception [ 0 ]: The requested view /pages/about could not be found ~ SYSPATH\classes\Kohana\View.php [ 257 ] in V:\home\kohana\www\system\classes\Kohana\View.php:137
+2014-04-24 23:32:46 --- DEBUG: #0 V:\home\kohana\www\system\classes\Kohana\View.php(137): Kohana_View->set_filename('/pages/about')
+#1 V:\home\kohana\www\system\classes\Kohana\View.php(30): Kohana_View->__construct('/pages/about', NULL)
+#2 V:\home\kohana\www\application\classes\Controller\page.php(10): Kohana_View::factory('/pages/about')
+#3 V:\home\kohana\www\system\classes\Kohana\Controller.php(84): Controller_Page->action_about()
+#4 [internal function]: Kohana_Controller->execute()
+#5 V:\home\kohana\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Page))
+#6 V:\home\kohana\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 V:\home\kohana\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 V:\home\kohana\www\index.php(118): Kohana_Request->execute()
+#9 {main} in V:\home\kohana\www\system\classes\Kohana\View.php:137
+2014-04-24 23:33:36 --- CRITICAL: View_Exception [ 0 ]: The requested view /pages/about could not be found ~ SYSPATH\classes\Kohana\View.php [ 257 ] in V:\home\kohana\www\system\classes\Kohana\View.php:137
+2014-04-24 23:33:36 --- DEBUG: #0 V:\home\kohana\www\system\classes\Kohana\View.php(137): Kohana_View->set_filename('/pages/about')
+#1 V:\home\kohana\www\system\classes\Kohana\View.php(30): Kohana_View->__construct('/pages/about', NULL)
+#2 V:\home\kohana\www\application\classes\Controller\page.php(10): Kohana_View::factory('/pages/about')
+#3 V:\home\kohana\www\system\classes\Kohana\Controller.php(84): Controller_Page->action_about()
+#4 [internal function]: Kohana_Controller->execute()
+#5 V:\home\kohana\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Page))
+#6 V:\home\kohana\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 V:\home\kohana\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 V:\home\kohana\www\index.php(118): Kohana_Request->execute()
+#9 {main} in V:\home\kohana\www\system\classes\Kohana\View.php:137
+2014-04-24 23:33:37 --- CRITICAL: View_Exception [ 0 ]: The requested view /pages/about could not be found ~ SYSPATH\classes\Kohana\View.php [ 257 ] in V:\home\kohana\www\system\classes\Kohana\View.php:137
+2014-04-24 23:33:37 --- DEBUG: #0 V:\home\kohana\www\system\classes\Kohana\View.php(137): Kohana_View->set_filename('/pages/about')
+#1 V:\home\kohana\www\system\classes\Kohana\View.php(30): Kohana_View->__construct('/pages/about', NULL)
+#2 V:\home\kohana\www\application\classes\Controller\page.php(10): Kohana_View::factory('/pages/about')
+#3 V:\home\kohana\www\system\classes\Kohana\Controller.php(84): Controller_Page->action_about()
+#4 [internal function]: Kohana_Controller->execute()
+#5 V:\home\kohana\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Page))
+#6 V:\home\kohana\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 V:\home\kohana\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 V:\home\kohana\www\index.php(118): Kohana_Request->execute()
+#9 {main} in V:\home\kohana\www\system\classes\Kohana\View.php:137
+2014-04-24 23:34:00 --- CRITICAL: View_Exception [ 0 ]: The requested view /pages/about could not be found ~ SYSPATH\classes\Kohana\View.php [ 257 ] in V:\home\kohana\www\system\classes\Kohana\View.php:137
+2014-04-24 23:34:00 --- DEBUG: #0 V:\home\kohana\www\system\classes\Kohana\View.php(137): Kohana_View->set_filename('/pages/about')
+#1 V:\home\kohana\www\system\classes\Kohana\View.php(30): Kohana_View->__construct('/pages/about', NULL)
+#2 V:\home\kohana\www\application\classes\Controller\page.php(10): Kohana_View::factory('/pages/about')
+#3 V:\home\kohana\www\system\classes\Kohana\Controller.php(84): Controller_Page->action_about()
+#4 [internal function]: Kohana_Controller->execute()
+#5 V:\home\kohana\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Page))
+#6 V:\home\kohana\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 V:\home\kohana\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 V:\home\kohana\www\index.php(118): Kohana_Request->execute()
+#9 {main} in V:\home\kohana\www\system\classes\Kohana\View.php:137
+2014-04-24 23:34:02 --- CRITICAL: View_Exception [ 0 ]: The requested view /pages/about could not be found ~ SYSPATH\classes\Kohana\View.php [ 257 ] in V:\home\kohana\www\system\classes\Kohana\View.php:137
+2014-04-24 23:34:02 --- DEBUG: #0 V:\home\kohana\www\system\classes\Kohana\View.php(137): Kohana_View->set_filename('/pages/about')
+#1 V:\home\kohana\www\system\classes\Kohana\View.php(30): Kohana_View->__construct('/pages/about', NULL)
+#2 V:\home\kohana\www\application\classes\Controller\page.php(10): Kohana_View::factory('/pages/about')
+#3 V:\home\kohana\www\system\classes\Kohana\Controller.php(84): Controller_Page->action_about()
+#4 [internal function]: Kohana_Controller->execute()
+#5 V:\home\kohana\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Page))
+#6 V:\home\kohana\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 V:\home\kohana\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 V:\home\kohana\www\index.php(118): Kohana_Request->execute()
+#9 {main} in V:\home\kohana\www\system\classes\Kohana\View.php:137
